@@ -9,12 +9,9 @@ Reprezentacją rozwiązania jest, uporządkowany rosnąco, ciąg numerów wybran
 
 Znalezienie rozwiązania optymalnego, czyli takiego, którego reprezentacja jest najkrótsza, wymaga zastosowania kosztownego algorytmu siłowego, opartego na metodzie prób i błędów.
 
-Dla ustalenia uwagi przyjmujemy, że algorytm ten, dalej nazywany algorytmem dokładnym, daje to spośród rozwiązań optymalnych, którego reprezentacja jest pierwsza w porządku leksykograficznym .
-
+Dla ustalenia uwagi przyjmujemy, że algorytm ten, dalej nazywany algorytmem dokładnym, daje to spośród rozwiązań optymalnych, którego reprezentacja jest pierwsza w porządku leksykograficznym.
 Jeśli rozwiązanie optymalne nie jest wymagane, to zamiast algorytmu dokładnego możemy zastosować heurystykę .
-
 Heurystyka naiwna rozważa zbiory rodziny R w kolejności rosnących numerów. Wybiera aktualny zbiór jeśli należy do niego jakiś element zbioru Z, który nie należy do żadnego z dotąd wybranych zbiorów.
-
 Heurystyka zachłanna w kolejnych krokach wybiera z rodziny R zbiór, w którym jest największa liczba elementów zbioru Z nie należących do żadnego z dotąd wybranych zbiorów. Jeśli warunek ten spełnia wiele zbiorów, to wybierany jest spośród nich zbiór o najmniejszym numerze.
 
 ### Polecenie
